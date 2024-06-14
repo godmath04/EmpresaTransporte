@@ -12,8 +12,9 @@ public class Main {
         // Listar camiones
         List<String> listaCamiones = flota.listaCam();
         for (int i = 0; i < listaCamiones.size(); i++) {
-            System.out.println(listaCamiones);
+            System.out.println(listaCamiones.get(i));
         }
+
 
         //Pedir que el usuario ingrese la carga
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
